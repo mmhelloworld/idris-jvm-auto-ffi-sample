@@ -1,0 +1,12 @@
+package idrisjvmautoffisamplemain
+
+pkgs = idrisjvmffi
+     , idrisjvmautoffisampleimporter
+
+modules = Main
+
+sourcedir = src
+
+opts = "--portable-codegen jvm -o ../target/classes"
+
+main = Main

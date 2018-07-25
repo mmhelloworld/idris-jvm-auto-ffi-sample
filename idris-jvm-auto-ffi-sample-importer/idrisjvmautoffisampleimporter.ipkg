@@ -1,0 +1,9 @@
+package idrisjvmautoffisampleimporter
+
+pkgs = idrisjvmffi
+
+modules = mmhelloworld.idrisjvmautoffisample.importer.JvmImporter
+
+sourcedir = src
+
+opts = "--portable-codegen jvm -o target/classes"
