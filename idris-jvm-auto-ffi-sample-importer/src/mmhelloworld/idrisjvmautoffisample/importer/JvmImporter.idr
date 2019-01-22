@@ -14,9 +14,6 @@ objectMapperClass = "com/fasterxml/jackson/databind/ObjectMapper"
 jsonNodeClass : String
 jsonNodeClass = "com/fasterxml/jackson/databind/JsonNode"
 
-integerClass : String
-integerClass = "java/lang/Integer"
-
 javaimport "mvn -f ../pom.xml exec:java@jvm-import-idris -Dexec.arguments=" [
     (objectMapperClass, ["<init>", "readTree"]),
     (jsonNodeClass, ["at", "asDouble"]),
