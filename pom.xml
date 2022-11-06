@@ -14,7 +14,7 @@
     <properties>
         <idris.srcdir>${project.basedir}/src/main/idris</idris.srcdir>
 
-        <jackson.version>2.10.0</jackson.version>
+        <jackson.version>2.13.4.1</jackson.version>
         <junit.version>5.2.0</junit.version>
 
         <exec-maven-plugin.version>1.5.0</exec-maven-plugin.version>
